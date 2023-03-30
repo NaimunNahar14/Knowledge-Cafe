@@ -7,9 +7,7 @@ const Header = () => {
         <h4>knowledge Site</h4>
         <div>
         <a href="">Blog</a>
-        </div>
-        
-       
+        </div>        
        </nav>
         
     );

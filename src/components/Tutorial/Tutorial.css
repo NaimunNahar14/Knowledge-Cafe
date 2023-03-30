@@ -1,0 +1,10 @@
+.tutorial-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.lectures-container{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}

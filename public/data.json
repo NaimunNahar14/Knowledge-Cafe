@@ -43,14 +43,6 @@
       "BlogTitle": "Tailwind",
       "PublishDate": "Wed Jan 11 2023 (4 days ago)",
       "ReadTime": "15min read"
-    },
-    {
-      "id": "6",
-      "BlogCoverPicture": "http://placehold.it/32x32",
-      "AuthorImages": "http://placehold.it/32x32",
-      "AuthorName": "Elvira Cantu",
-      "BlogTitle": "Introduction of JavaScript",
-      "PublishDate": "Sat Jan 07 2023 (4 days ago)",
-      "ReadTime": "20min read"
     }
+    
   ]

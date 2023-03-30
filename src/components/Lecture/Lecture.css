@@ -1,0 +1,24 @@
+.tutorial{
+    width: 400px;
+    height: 510px;
+    border: 1px solid #95a0a7;
+    border-radius: 10px;
+}
+.tutorial img{
+    width: 360px;
+    height: 250px;
+    margin: 7px;
+    border-radius: 5px;
+
+}
+.tutorial-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    
+
+}
+.tutorial a , h3{
+    margin-left: 10px;
+}
