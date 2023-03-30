@@ -14,7 +14,7 @@ function App() {
       <Tutorial></Tutorial>
      
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

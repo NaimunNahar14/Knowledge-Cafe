@@ -1,5 +1,8 @@
 import React from 'react';
 import './Lecture.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBookBookmark} from '@fortawesome/free-solid-svg-icons'
+
 
 const Lecture = (props) => {
     const{BlogCoverPicture, AuthorImages, AuthorName, BlogTitle, PublishDate, ReadTime} = props.tutorial;
@@ -13,7 +16,7 @@ const Lecture = (props) => {
                     <p>{PublishDate}</p>
                 </div>
                 <div>
-                    <p>{ReadTime}</p>
+                    <p>{ReadTime} <button><FontAwesomeIcon icon={faBookBookmark} /> </button></p>
                 </div>
             </div>
             <h3 >{BlogTitle}</h3>
