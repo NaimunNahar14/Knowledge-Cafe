@@ -18,7 +18,11 @@ const SideCart = ({cart,readTime}) => {
                 <h2>Spent time on: {time}min </h2>
                 </div>
                 <div className='cart-info'> 
-                    <h2>Bookmarked blogs: {cart.length}</h2>         
+                    <h2>Bookmarked blogs: {cart.length}</h2>
+                   
+    
+
+                    
                    
                     {/* {
                       cart.map((cart)=>{

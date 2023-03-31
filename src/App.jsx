@@ -7,7 +7,7 @@ import Tutorial from './components/Tutorial/Tutorial'
 import SideCart from './components/SideCart/SideCart'
 import Footer from './components/Footer/Footer'
 
-function App() {
+function App() { 
   const [readTime, setReadTime] = useState("");
   const [count, setCount] = useState(0)
   const handleReadTime = (time) =>{

@@ -22,3 +22,19 @@
 .tutorial a , h3{
     margin-left: 10px;
 }
+@media only screen and (max-width: 600px){
+    .tutorial{
+        width: 300px;
+    height: 500px;
+
+    }
+    .tutorial img{
+        width: 263px;
+        height: 147px;
+      
+    
+    }
+   
+}
+    
+

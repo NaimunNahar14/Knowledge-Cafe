@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1fr;
 }
 .lectures-container{
-    margin: 50px;
+    margin: 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 30px;
@@ -13,5 +13,9 @@
         display: flex;
         flex-direction: column;
         
+    }
+    .lectures-container{
+        margin: 5px;
+
     }
 }
