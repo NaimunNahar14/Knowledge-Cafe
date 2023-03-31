@@ -1,15 +1,30 @@
 import React, { useEffect, useState } from 'react';
 import Lecture from '../Lecture/Lecture';
+import SideCart from '../SideCart/SideCart';
 import './Tutorial.css';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const Tutorial = () => {
+const Tutorial = ({handleReadTime ,readTime}) => {
     const [tutorials, setTutorials] = useState([]);
+    const [cart, setCart] = useState([]);
+    // const [time , setTime] = useState([])
     useEffect(()=>{
         fetch('data.json')
         .then(res=>res.json())
         .then(data=> setTutorials(data))
 
-    },[])
+    },[]);
+    const handleAddToBookMark = (tutorial) =>{
+        const newCart = [...cart, tutorial];
+         setCart(newCart); 
+
+    }
+    // const handleReadTime =(tutorial) =>{
+    //     const newTime = [...time, tutorial];
+    //     setTime(newTime);
+    // }
+
     return (
         <div className='tutorial-container'>
             <div className='lectures-container'>
@@ -17,20 +32,18 @@ const Tutorial = () => {
                     tutorials.map(tutorial => <Lecture 
                         key={tutorial.id}
                         tutorial={tutorial}
-
-                    ></Lecture>)
-                    
+                        handleAddToBookMark={handleAddToBookMark}
+                        handleReadTime= {handleReadTime}
+                        
+                    ></Lecture>)    
 
                 }
                 
             </div>
             <div className='bookmark-container'>
-                <div>
-                    <h2>Spent time on read:</h2>
-                </div>
-                <div>
-                    <h2>Bookmarked blogs:</h2>
-                </div>
+                <SideCart cart={cart}
+                readTime={readTime}
+                ></SideCart>
                 
 
             </div>

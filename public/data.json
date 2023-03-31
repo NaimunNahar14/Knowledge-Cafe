@@ -6,7 +6,7 @@
       "AuthorName": "Joan May",
       "BlogTitle": "Learn and Explore HTML as a Beginner",
       "PublishDate": "Sun Feb 26 2023 (4 Days ago)",
-      "ReadTime": "05min read"
+      "ReadTime": 5
     },
     {
       "id": "2",
@@ -15,7 +15,7 @@
       "AuthorName": "Stanley Oliver",
       "BlogTitle": "Learn and Explore CSS as a Beginner",
       "PublishDate": "Tue Jan 24 2023(4 Days ago)",
-      "ReadTime": "10min read"
+      "ReadTime": 10
     },
     {
       "id": "3",
@@ -24,7 +24,7 @@
       "AuthorName": "Keith Haley",
       "BlogTitle": "Git, Source control, github and hosting",
       "PublishDate": "Thu Feb 09 2023 (4 Days ago)",
-      "ReadTime": "12min read"
+      "ReadTime": 12
     },
     {
       "id": "4",
@@ -33,7 +33,7 @@
       "AuthorName": "Johnnie Dalton",
       "BlogTitle": "Introduction of Bootstrap",
       "PublishDate": "Fri Jan 27 2023 (4 Days ago)",
-      "ReadTime": "10min read"
+      "ReadTime": 10
     },
     {
       "id": "5",
@@ -42,7 +42,7 @@
       "AuthorName": "Rebekah Anderson",
       "BlogTitle": "Tailwind",
       "PublishDate": "Wed Jan 11 2023 (4 days ago)",
-      "ReadTime": "15min read"
+      "ReadTime": 15
     }
     
   ]
