@@ -26,8 +26,7 @@ function App() {
       <Header></Header>
       <Tutorial handleReadTime={handleReadTime}
       readTime={readTime}
-      ></Tutorial>
-      
+      ></Tutorial>   
      
     </div>
   );

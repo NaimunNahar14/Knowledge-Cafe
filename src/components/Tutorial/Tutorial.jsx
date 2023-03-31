@@ -33,8 +33,7 @@ const Tutorial = ({handleReadTime ,readTime}) => {
                         key={tutorial.id}
                         tutorial={tutorial}
                         handleAddToBookMark={handleAddToBookMark}
-                        handleReadTime= {handleReadTime}
-                        
+                        handleReadTime= {handleReadTime}  
                     ></Lecture>)    
 
                 }
@@ -43,7 +42,8 @@ const Tutorial = ({handleReadTime ,readTime}) => {
             <div className='bookmark-container'>
                 <SideCart cart={cart}
                 readTime={readTime}
-                ></SideCart>
+                ></SideCart> 
+
                 
 
             </div>

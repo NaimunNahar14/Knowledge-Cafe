@@ -4,9 +4,9 @@ import './Header.css';
 const Header = () => {
     return (
        <nav className='header'>
-        <h4>knowledge Site</h4>
+        <h3>knowledge Site</h3>
         <div>
-        <a href="">Blog</a>
+        
         </div>        
        </nav>
         
