@@ -27,9 +27,7 @@ const Footer = () => {
                 <ul>
                     <li>The useEffect in react js allows you to perform side effects in your components. The react useEffect examples of side effects include retrieving data, direct DOM updates, and timers. The second argument is optional.</li>
                     <li>Validating an input while it's receiving characters is another great application for useEffect . Whilst the input is being stored in a state using useState , the validation takes place every time the input changes, giving immediate feedback to the user.</li>
-                </ul>
-                
-                
+                </ul>               
                 
             </div>
             <div>
