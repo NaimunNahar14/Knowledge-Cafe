@@ -18,14 +18,14 @@ const SideCart = ({cart,readTime}) => {
                 </div>
                 <div className='cart-info'> 
                     <h2>Bookmarked blogs: {cart.length}</h2>
-                    {
-                      cart.map((tutorial,id)=>{
-                        <div key={id}>
+                    {/* {
+                      cart.map((cart)=>{
+                        <div key={tutorial.id}>
                             <p>{id + 1}</p>
                             <p>{tutorial.BlogTitle}</p>
                             </div>
                       })
-                    }
+                    } */}
                    
                 </div>
                 <div>

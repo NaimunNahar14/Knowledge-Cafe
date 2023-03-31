@@ -20,11 +20,12 @@ const Lecture = (props) => {
                     <p>{PublishDate}</p>
                 </div>
                 <div>
-                    <p>{ReadTime}min Read<button onClick={() => handleReadTime(ReadTime)}><FontAwesomeIcon icon={faBookBookmark}/></button></p>
+                    <p>{ReadTime}min Read<button onClick={() => handleAddToBookMark(props.tutorial)}><FontAwesomeIcon icon={faBookBookmark}/></button></p>
                 </div>
             </div>
             <h3 >{BlogTitle}</h3>
-            <a><button onClick={() => handleAddToBookMark(props.tutorial)}>Mark as a Read</button></a>
+            <a><button onClick={() => handleReadTime(ReadTime)}>Mark as a Read</button></a>
+            
 
         </div>
     );
