@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Tutorial from './components/Tutorial/Tutorial'
 import SideCart from './components/SideCart/SideCart'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [readTime, setReadTime] = useState("");
@@ -27,6 +28,7 @@ function App() {
       <Tutorial handleReadTime={handleReadTime}
       readTime={readTime}
       ></Tutorial>   
+      <Footer></Footer>
      
     </div>
   );
